@@ -272,5 +272,5 @@ $ git tag -d <tagname>
 $ git push origin :refs/tags/<tagname>
 ```
 <div align=center>
-![微信ID：Baiman_Ber](https://upload.cc/i1/2018/09/10/yj2tJI.png)
+<img src="https://ws1.sinaimg.cn/large/006KCUaNgy1fv5je2cq6sj30go05kgpt.jpg" alt="微信ID：Baiman_Ber"/>
 </div>
