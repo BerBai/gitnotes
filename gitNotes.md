@@ -271,6 +271,5 @@ $ git tag -d <tagname>
 ```
 $ git push origin :refs/tags/<tagname>
 ```
-<div style="align:center">![柏战不殆](https://upload.cc/i1/2018/09/10/yj2tJI.png)</div>
-![柏战不殆](https://upload.cc/i1/2018/09/10/yj2tJI.png)
-<img src="https://upload.cc/i1/2018/09/10/yj2tJI.png"  alt="微信ID：Baiman_Ber" />
+
+<img src="https://upload.cc/i1/2018/09/10/yj2tJI.png" slign="center" alt="微信ID：Baiman_Ber" />
