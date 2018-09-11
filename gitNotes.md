@@ -7,6 +7,7 @@
   3. 这样的好处在于：
      - 自己可以在脱机环境查看开发的版本历史。
      - 多人开发时如果充当中央仓库的Git仓库挂了，可以随时创建一个新的中央仓库然后同步就立刻恢复了中央库。
+
 ## Git命令
 ### Git配置
 ```
@@ -45,6 +46,7 @@ $ git diff HEAD -- <file>
 - `git diff` 可以查看工作区(work dict)和暂存区(stage)的区别
 - `git diff --cached` 可以查看暂存区(stage)和分支(master)的区别
 - `git diff HEAD -- <file>` 可以查看工作区和版本库里面最新版本的区别
+
 ### 查看提交日志
 ```
 $ git log
@@ -73,11 +75,12 @@ commit_id是版本号，是一个用SHA1计算出的序列
 版本库：在工作区有一个隐藏目录`.git`，是Git的版本库。
 Git的版本库中存了很多东西，其中最重要的就是称为stage（或者称为index）的暂存区，还有Git自动创建的`master`，以及指向`master`的指针`HEAD`。
 
-![program](https://cdn.liaoxuefeng.com/cdn/files/attachments/001384907720458e56751df1c474485b697575073c40ae9000/0)
+![演示图](https://ws1.sinaimg.cn/large/006KCUaNgy1fv5innaz2sj30cq06ijri.jpg)
 
 进一步解释一些命令：
 - `git add`实际上是把文件添加到暂存区
 - `git commit`实际上是把暂存区的所有内容提交到当前分支
+
 ### 撤销修改
 #### 丢弃工作区的修改
 ```
@@ -268,3 +271,5 @@ $ git tag -d <tagname>
 ```
 $ git push origin :refs/tags/<tagname>
 ```
+
+![柏战不殆](https://upload.cc/i1/2018/09/10/yj2tJI.png)
