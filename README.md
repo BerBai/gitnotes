@@ -5,5 +5,5 @@
 
 ## 不提交修改的文件怎么做-[.gitigore文件说明](https://github.com/tooyi/gitnotes/blob/master/gitigonre.md)
 
-## GIT[踩坑总结](https://github.com/tooyi/gitnotes/debug.md)
+## GIT[踩坑总结](https://github.com/tooyi/gitnotes/blob/master/debug.md)
 
