@@ -87,13 +87,28 @@ npm-debug.log*
 
 ## 若已提交的内容需要处理
 
-1. 移除已提交的内容
+1. 暂存区移除已提交的内容
 
-**提前把文件备份**
+`git rm --cached 文件名` 会把文件从暂存区删除，工作区仍存在
 
-`git rm -f 文件名` 会把文件从本地和暂存区删除
+2. .gitignore文件中添加忽略项
 
-`git commit`
+`git commit -m 'delete remote somefile'`
 
-2. 再在 `.gitignore` 文件中添加文件路径
-3. 将备份文件移入
+3. 提交远程
+
+`git push`
+
+### git rm与git rm --cached
+
+#### 当我们需要删除暂存区或分支上的文件, 同时工作区也不需要这个文件了, 可以使用
+
+1. git rm file_path
+2. git commit -m 'delete somefile'
+3. git push
+
+#### 当我们需要删除暂存区或分支上的文件, 但本地又需要使用, 只是不希望这个文件被版本控制, 可以使用
+
+1. git rm --cached file_path
+2. git commit -m 'delete remote somefile'
+3. git push
